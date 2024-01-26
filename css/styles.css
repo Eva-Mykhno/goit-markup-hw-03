@@ -31,6 +31,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   width: 100%;
@@ -145,6 +149,11 @@ button {
   text-transform: capitalize;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* === Hero === */
 
 .hero {
@@ -175,6 +184,10 @@ button {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -183,11 +196,6 @@ button {
 }
 
 /* === Advantages === */
-
-.advantages {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .visually-hidden {
   position: absolute;
@@ -222,12 +230,9 @@ button {
 
 .team-page {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-title {
-  margin-bottom: 72px;
 }
 
 .team-list {
@@ -236,12 +241,16 @@ button {
 }
 
 .team-img {
-  margin-bottom: 32px;
 }
 
 .team-list-item {
   background-color: #fff;
   flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-content {
+  padding: 32px 0;
 }
 
 .team-subtitle {
@@ -250,24 +259,25 @@ button {
 }
 
 .team-text {
-  margin-bottom: 32px;
   text-align: center;
 }
 
 /* ==== Portfolio === */
 
-.portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .portfolio-title {
   margin-bottom: 72px;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+}
+
+.portfolio-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-item {
   flex-basis: calc((100% - 58px) / 3);
@@ -277,7 +287,7 @@ button {
   margin-bottom: 32px;
 }
 .portfolio-subtitle {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   padding: 0 16px;
 }
 .portfolio-text {
@@ -289,7 +299,7 @@ button {
 
 .footer {
   background: #2e2f42;
-  padding-top: 102px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
