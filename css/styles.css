@@ -233,6 +233,7 @@ img {
 }
 
 .team-title {
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -317,6 +318,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-part {
